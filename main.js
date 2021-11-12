@@ -25,12 +25,6 @@ function buildTable(data){
         </tr>`;
         table.innerHTML += row;
     }
-    // for(let j of data) {
-
-    // }
-    // for(let i in data) {
-
-    // }
 }
 
 getData();
