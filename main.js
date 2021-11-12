@@ -6,7 +6,7 @@ function getData() {
     }).then((mydata) => {       //stored result into mydata oject
         console.log(mydata);
         buildTable(mydata);
-    }).catch((err) => {         // hadnled the error if an occurs 
+    }).catch((err) => {         // hadndled the error if an occurs 
         console.error(err);
     });
 }
@@ -17,6 +17,7 @@ function buildTable(data) {
     for (let i = 0; i < data.length; i++) {  //for loop to iterate json object
         const row = `<tr>
             <td>${data[i].id}</td>
+            <td><img src ="${data[i].avatar}"></td>
             <td>${data[i].avatar}</td>
             <td>${data[i].first_name}</td>
             <td>${data[i].last_name}</td>
