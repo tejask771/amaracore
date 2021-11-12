@@ -18,7 +18,6 @@ function buildTable(data) {
         const row = `<tr>
             <td>${data[i].id}</td>
             <td><img src ="${data[i].avatar}"></td>
-            <td>${data[i].avatar}</td>
             <td>${data[i].first_name}</td>
             <td>${data[i].last_name}</td>
             <td>${data[i].phone}</td>
